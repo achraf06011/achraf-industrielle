@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" fill="none">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="200" y2="200" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#1A6AB0"/>
+      <stop offset="100%" stop-color="#0A3560"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="200" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#0F4C81"/>
+      <stop offset="100%" stop-color="#00A8E8"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Octagonal background -->
+  <path d="M50 0 L150 0 L200 50 L200 150 L150 200 L50 200 L0 150 L0 50 Z" fill="url(#bg)"/>
+
+  <!-- A letterform - bold industrial style -->
+  <path d="M42 168 L100 40 L158 168" stroke="white" stroke-width="19" stroke-linecap="square" stroke-linejoin="miter" fill="none"/>
+  <line x1="65" y1="124" x2="135" y2="124" stroke="white" stroke-width="17" stroke-linecap="square"/>
+
+  <!-- Apex accent dot -->
+  <circle cx="100" cy="40" r="17" fill="url(#accent)"/>
+
+  <!-- Bottom accent -->
+  <path d="M0 180 L50 200 L150 200 L200 180" stroke="#00A8E8" stroke-width="7" fill="none" opacity="0.6"/>
+</svg>

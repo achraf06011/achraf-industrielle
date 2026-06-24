@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://achraf-industrielle.com/sitemap.xml
